@@ -1,5 +1,19 @@
 # HP Printer Drivers — Apple Silicon & macOS Compatibility Patch
 
+## Download & Install
+
+**Pre-patched package** — download and install in one step:
+
+1. Download `HewlettPackardPrinterDrivers-patched.pkg` from the [latest release](https://github.com/faradayfury/hp-printer-drivers-apple-silicon-patch/releases/latest)
+2. Install it:
+   ```bash
+   sudo installer -pkg HewlettPackardPrinterDrivers-patched.pkg -target /
+   ```
+3. If you're on Apple Silicon, make sure Rosetta 2 is installed:
+   ```bash
+   softwareupdate --install-rosetta
+   ```
+
 ## The Problem
 
 Apple's official **HewlettPackardPrinterDrivers** package (v10.6, dated Oct 2021) refuses to install on modern Macs due to two artificial restrictions in the installer's `Distribution` file:
@@ -59,6 +73,14 @@ Removed the version check that blocked installation on macOS versions newer than
 
 ## How to Reproduce the Patch
 
+You can use the included script to patch the original DMG yourself:
+
+```bash
+./patch.sh HewlettPackardPrinterDrivers.dmg
+```
+
+Or do it manually:
+
 ```bash
 # 1. Mount the original DMG
 hdiutil attach HewlettPackardPrinterDrivers.dmg -nobrowse
@@ -112,3 +134,11 @@ HP PSC 1000-2500 series
 - This package includes drivers for many HP printers (LaserJet, OfficeJet, DeskJet, etc.), not just a single model.
 - The original DMG is Apple's own distribution from `swscan.apple.com`, package identifier `com.apple.pkg.HewlettPackardPrinterDrivers`.
 - **No proprietary binaries are modified or redistributed** — only the installer metadata (Distribution XML) is patched.
+
+## Disclaimer
+
+This patch is **unofficial** and is not endorsed by, affiliated with, or supported by Apple Inc. or HP Inc. It is provided as-is, without warranty of any kind. Use at your own risk.
+
+- No proprietary software is modified or redistributed — only the open XML installer metadata is patched.
+- This may stop working with future macOS updates if Apple changes the installer framework.
+- Always verify your printer works after installation.
